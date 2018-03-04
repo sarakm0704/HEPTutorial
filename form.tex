@@ -1,0 +1,54 @@
+\documentclass[11pt]{article}
+\usepackage[left=2.5cm,right=2.5cm,top=3cm,bottom=3cm,a4paper]{geometry}
+\usepackage{enumerate,listings,color,graphicx,subfig}
+\usepackage[T1]{fontenc}
+\graphicspath{{2-pdf/}}
+
+\definecolor{btgreen}{rgb}{0.1,0.75,0.1}
+\definecolor{dkblue}{rgb}{0.25,0.1,0.95}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{brown}{rgb}{0.75,0.2,0.1}
+\definecolor{nut}{rgb}{0.8,0.5,0.15}
+
+\lstset{
+  frame=tb,
+  language=C,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{btgreen},
+  commentstyle=\color{dkblue},
+  stringstyle=\color{brown},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+\begin{document}
+\setcounter{section}{1}
+\section{HEP tutorial: Solution}
+\paragraph{2.1}
+A
+
+\begin{lstlisting}[emph={if,while,continue,new},emphstyle=\color{nut}]
+Helloworld
+\end{lstlisting}
+
+
+\newpage
+\paragraph{2.2}
+B
+
+\newpage
+\paragraph{2.3}
+C
+
+\newpage
+\paragraph{2.4}
+D
+
+\end{document}
